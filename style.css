@@ -1,66 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Poppins", sans-serif;
 }
 
-header {
+header{
     display: grid;
     background-color: #eee;
 }
 
-.cloud-1 {
+.cloud-1{
     padding:50px 200px 0px 0px;
 }
 .cloud-1 > img {
     float: right; 
 }
 
-.cloud-2 {
+.cloud-2{
     padding: 0px 0px 0px 200px;
 }
 
-.title {
+.title{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    
 }
 
-.title > h1 {
+.title > h1{
     font-family: 'Great Vibes', cursive;
-    color: rgba(10, 164, 184, 0.765);
+    color: rgba(10, 164, 184, 0.763);
     font-size: 4rem;
     letter-spacing: 5px;
 }
 
-.title > p {
-    color: rgba(10, 164, 184, 0.765);
+.title > p{
+    color: rgba(10, 164, 184, 0.763);
     font-size: 2rem;
 }
-.mountain-img {
+.mountain-img{
     display: flex;
     justify-content: center;
 }
 
-.child1 {
+.child1{
     text-align: center;
     margin: 100px;
 }
 
-.child2 {
+.child2{
     display: grid;
     text-align: center;
     justify-content: center;
 }
 
-td {
+td{
     padding: 5px;
 }
 
-.child3 {
+.child3{
     display: grid;
     justify-content: center;
     text-align: center;
@@ -68,12 +66,12 @@ td {
     padding-top: 50px;
 }
 
-.child3 > h1 {
+.child3 > h1{
     color: green;
     padding-top: 60px;
 }
 
-.child3 hr {
+.child3 hr{
     height: 5px;
     width: 320px;
     position: relative;
@@ -82,7 +80,7 @@ td {
     transform: translate(-50%, -50%);
 }
 
-.gallery {
+.gallery{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 10px;
@@ -94,13 +92,13 @@ td {
     text-align: center;
 }
 
-.gallery img:hover {
+.gallery img:hover{
     width: 370px;
     height: 320px;
     transition: 1s ease-in-out;
 }
 
-.child4 {
+.child4{
     justify-content: center;
     text-align: center;
     margin: 100px;
@@ -108,39 +106,39 @@ td {
     row-gap: 30px;
 }
 
-button {
+button{
     border: none;
-    background-color: rgba(10, 164, 184, 0.765);
+    background-color: rgba(10, 164, 184, 0.763);
     color: white;
     float: right;
     padding: 10px 20px;
     border-radius: 10px;
 }
 
-button:hover {
+button:hover{
     background-color: greenyellow;
 }
 
-footer {
+footer{
     display: grid;
     align-items: center;
     justify-content: center;
     text-align: center;
     row-gap: 40px;
-    background-color:rgba(10, 164, 184, 0.765) ;
+    background-color:rgba(10, 164, 184, 0.763) ;
     height: 200px;
     
 }
 
-.con {
+.socials{
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 30px;
 }
-a {
+a{
     text-decoration: none;
-    color: rgba(6, 87, 98, 0.765);
+    color: rgba(6, 87, 98, 0.763);
 }
 
 
