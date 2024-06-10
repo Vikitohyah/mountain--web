@@ -46,6 +46,7 @@ header{
 .child1{
     text-align: center;
     margin: 100px;
+    height: 500px;
 }
 
 .child2{
@@ -87,7 +88,7 @@ td{
     column-gap: 10px;
     padding-top: 30px;
     width: 700px;
-    height: 600px;
+    height: 700px;
     justify-content: center;
     text-align: center;
 }
